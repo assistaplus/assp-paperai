@@ -1,0 +1,129 @@
+repo_name: assistaplus/assp-paperai
+report_id: fcc3a69e191aff2ecbac80eee40a012e
+version: 0.1
+repo_type: Public
+timestamp: '2024-05-06T13:39:50+00:00'
+requested_by: davidmezzetti
+provider: github
+branch: master
+detected_tools_count: 9
+tools:
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/assistaplus/assp-paperai
+  detection_source: Repo Metadata
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/assistaplus/assp-paperai
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/assistaplus/assp-paperai
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/assistaplus/assp-paperai/blob/master/.github/workflows/build.yml
+  detection_source: ".github/workflows/build.yml"
+  last_updated_by: davidmezzetti
+  last_updated_on: 2022-11-20 13:10:03.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/assistaplus/assp-paperai/blob/master/setup.py
+  detection_source: setup.py
+  last_updated_by: davidmezzetti
+  last_updated_on: 2020-07-21 18:32:43.000000000 Z
+- name: PyYAML
+  description: YAML parser and emitter for Python
+  package_url: https://pypi.org/project/PyYAML
+  version: '5.3'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19829/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
+  detection_source_url: https://github.com/assistaplus/assp-paperai/blob/master/setup.py
+  detection_source: setup.py
+  last_updated_by: davidmezzetti
+  last_updated_on: 2021-12-03 20:12:28.000000000 Z
+  vulnerabilities:
+  - name: Improper Input Validation in PyYAML
+    cve_id: CVE-2020-14343
+    cve_url: https://github.com/advisories/GHSA-8q59-q68h-6hv4
+    detected_date: Aug 22
+    severity: critical
+    first_patched: '5.4'
+- name: networkx
+  description: Python package for creating and manipulating graphs and networks
+  package_url: https://pypi.org/project/networkx
+  version: '2.4'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19877/default_8902c10687fbcd6273bdbe119fff40fa1180763f.png
+  detection_source_url: https://github.com/assistaplus/assp-paperai/blob/master/setup.py
+  detection_source: setup.py
+  last_updated_by: davidmezzetti
+  last_updated_on: 2023-03-29 15:07:08.000000000 Z
+- name: python-dateutil
+  description: Extensions to the standard Python datetime module
+  package_url: https://pypi.org/project/python-dateutil
+  version: 2.8.1
+  license: NRL
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19833/default_58dbe7b4d7ec447b62773209af0f9a31bbabf5bd.png
+  detection_source_url: https://github.com/assistaplus/assp-paperai/blob/master/setup.py
+  detection_source: setup.py
+  last_updated_by: davidmezzetti
+  last_updated_on: 2023-09-18 14:44:59.000000000 Z
+- name: regex
+  description: Alternative regular expression module, to replace re
+  package_url: https://pypi.org/project/regex
+  version: 2020.5.14
+  license: Python-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19923/default_c8be5290cb8d8a8b578535a2c6475d1057ff4ea4.png
+  detection_source_url: https://github.com/assistaplus/assp-paperai/blob/master/setup.py
+  detection_source: setup.py
+  last_updated_by: davidmezzetti
+  last_updated_on: 2021-12-03 20:12:28.000000000 Z
